@@ -5,3 +5,35 @@ body {
 footer  {
     padding-top: 20px;
 }
+
+.newsboxes {
+    display: grid;
+    grid-column-gap: 15px;
+    grid-row-gap: 50px;;
+    grid-template-columns: auto auto auto;
+  }
+  
+  .news__item{
+    font-size: px;
+    margin: 0;
+    border:.5px solid blue;
+    padding: 10px;
+    text-align: center;
+    list-style-type: none;
+    
+    
+  }
+
+ .news__item img{
+    object-fit: scale-down;
+    margin: 10px;
+    width: 80%;
+    height: 50%;
+  }
+
+  
+ 
+
+  li{
+    display: inline-block;
+}
